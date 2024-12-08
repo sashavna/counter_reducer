@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+.rectangle {
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(0, 187, 255);
+    border-radius: 5px;
+}
+
+.rectangleInnerInput {
+    width: 280px;
+    height: 110px;
+    border: 2px solid rgb(0, 187, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+
+}
+
+.rectangleInnerButton {
+    width: 280px;
+    height: 50px;
+    border: 2px solid rgb(0, 187, 255);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.number {
+    color: rgb(0, 187, 255);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.numbertMax {
+    color: rgb(159, 0, 0);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+
+
+.errorMessage {
+    color: rgb(159, 0, 0);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.message {
+    text-align: center;
+    color: rgb(0, 187, 255);
+    font-weight: 400;
+    font-size: 30px;
+}

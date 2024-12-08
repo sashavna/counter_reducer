@@ -1,0 +1,11 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+}
+
+.backgrond {
+    background-color: #4a5461;
+}

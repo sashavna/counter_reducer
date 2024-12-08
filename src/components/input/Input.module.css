@@ -1,0 +1,23 @@
+.input {
+    width: 80px;
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 187, 255);
+}
+
+.label {
+    color: rgb(0, 187, 255);
+    font-weight: 600;
+    font-size: 23px;
+    justify-content: space-around;
+}
+
+.inputError {
+    outline: rgb(255, 0, 68) 1px solid;
+    width: 80px;
+    text-align: center;
+    margin-left: 30px;
+    color: rgb(255, 0, 68);
+    background-color: rgb(252, 192, 208);
+}
